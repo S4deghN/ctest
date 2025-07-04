@@ -1,13 +1,13 @@
 # ctest
 
-simple test framework for C.
+Minimalist test framework for C.
 
 you can define your test cases anywhere like this:
 ```c
 #include "ctest.h"
 
 test(Addition) {
-    ctest_assert( 2 + 2 == 4)
+    ctest_assert(2 + 2 == 4)
 }
 ```
 
